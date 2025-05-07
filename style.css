@@ -1,0 +1,53 @@
+/*Configuração geral*/
+body{
+    background-image: url(assets/papel\ de\ parede.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    display:grid;
+    align-items: center;
+    justify-content:center;
+}
+
+.pagina-inicial{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding: 100px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    display: grid;
+}
+
+.pagina-inicial h2{
+    margin-top: 0;
+}
+
+.name{
+    background-color: rgb(198, 230, 202);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.pagina-inicial button{
+    cursor: pointer;
+    background-color: rgb(5, 201, 5);
+    font-size:  20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+    
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
